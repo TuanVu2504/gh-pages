@@ -3,7 +3,7 @@ function FindProxyForURL(url, host) {
 
   if (
     shExpMatch(host, "*vlxx.mobi" ) || 
-    shExpMatch(host, "gaito.shop" ) ||
+    shExpMatch(host, "*gaito.shop" ) ||
     shExpMatch(host, "*medium.com" ) ||
     shExpMatch(host, "*google-analytics.com" ) ||
     shExpMatch(host, "*whatismyip.com" )
