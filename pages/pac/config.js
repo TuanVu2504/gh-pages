@@ -4,7 +4,6 @@ function FindProxyForURL(url, host) {
   if (
     shExpMatch(host, "*vlxx.mobi" ) || 
     shExpMatch(host, "gaito.shop" ) ||
-    shExpMatch(host, "medium.com" ) ||
     shExpMatch(host, ".*medium.com" ) ||
     shExpMatch(host, ".*whatismyip.com" )
   ) {
