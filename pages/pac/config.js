@@ -3,7 +3,8 @@ function FindProxyForURL(url, host) {
   [
     "*vlxx.mobi",
     "gaito.shop",
-    "*medium.com"
+    "medium.com",
+    ".*medium.com"
   ].some(p => shExpMatch(host, p)) {
     return "PROXY 127.0.0.1:65000";
   }
