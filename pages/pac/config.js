@@ -2,9 +2,9 @@ function FindProxyForURL(url, host) {
   alert(`hello ${host} - ${url}`);
 
   if (
-    shExpMatch(host, "*vlxx.mobi" ) || 
-    shExpMatch(host, "*gaito.shop" ) ||
-    shExpMatch(host, "*medium.com" ) ||
+    shExpMatch(host, "*vlxx*.mobi" ) || 
+    shExpMatch(host, "*gaito*.shop" ) ||
+    shExpMatch(host, "*medium*.com" ) ||
     shExpMatch(host, "*google-analytics.com" ) ||
     shExpMatch(host, "*beeg*.com" ) ||
 
@@ -12,7 +12,7 @@ function FindProxyForURL(url, host) {
     shExpMatch(host, "*yandex*.ru" ) ||
     shExpMatch(host, "*beeglivesex*.com" ) ||
 
-    shExpMatch(host, "*whatismyip*.com" )
+    shExpMatch(host, "*whatismyip*" )
   ) {
     return "PROXY 127.0.0.1:65000";
   }
