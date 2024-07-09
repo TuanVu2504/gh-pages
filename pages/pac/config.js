@@ -7,7 +7,12 @@ function FindProxyForURL(url, host) {
     shExpMatch(host, "*medium.com" ) ||
     shExpMatch(host, "*google-analytics.com" ) ||
     shExpMatch(host, "*beeg*.com" ) ||
-    shExpMatch(host, "*whatismyip.com" )
+
+    shExpMatch(host, "*externulls*.com" ) ||
+    shExpMatch(host, "*yandex*.ru" ) ||
+    shExpMatch(host, "*beeglivesex*.com" ) ||
+
+    shExpMatch(host, "*whatismyip*.com" )
   ) {
     return "PROXY 127.0.0.1:65000";
   }
