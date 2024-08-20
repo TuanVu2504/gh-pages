@@ -9,6 +9,9 @@ function FindProxyForURL(url, host) {
     shExpMatch(host, "*medium*.com" ) ||
     shExpMatch(host, "*beeg*.com" ) ||
 
+    shExpMatch(host, "*netflix*" ) ||
+    shExpMatch(host, "*udemy*" ) ||
+
     shExpMatch(host, "*externulls*.com" ) ||
     shExpMatch(host, "*yandex*.ru" ) ||
     shExpMatch(host, "*beeglivesex*.com" ) ||
