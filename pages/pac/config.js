@@ -12,7 +12,7 @@ function FindProxyForURL(url, host) {
     shExpMatch(host, "*externulls*.com" ) ||
     shExpMatch(host, "*yandex*.ru" ) ||
     shExpMatch(host, "*beeglivesex*.com" ) ||
-    shExpMatch(host, "*javhdz.*" ) ||
+    shExpMatch(host, "*javhd*" ) ||
     shExpMatch(host, "*whatismyip*" )
   ) {
     return "PROXY 127.0.0.1:65000";
