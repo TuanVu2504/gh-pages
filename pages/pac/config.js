@@ -2,20 +2,19 @@ function FindProxyForURL(url, host) {
   alert(`hello ${host} - ${url}`);
 
   if (
-    shExpMatch(host, "*vlxx*.mobi" ) || 
-    shExpMatch(host, "*gaito*.shop" ) ||
-    shExpMatch(host, "*gaigu*.tv" ) ||
-    shExpMatch(host, "*rphang*.*" ) ||
-    shExpMatch(host, "*medium*.com" ) ||
-    shExpMatch(host, "*beeg*.com" ) ||
+    shExpMatch(host, "*vlxx*" ) || 
+    shExpMatch(host, "*gaito*" ) ||
+    shExpMatch(host, "*gaigu*" ) ||
+    shExpMatch(host, "*rphang*" ) ||
+    shExpMatch(host, "*medium*" ) ||
+    shExpMatch(host, "*beeg*" ) ||
 
     shExpMatch(host, "*netflix*" ) ||
-    shExpMatch(host, "*fast*.com" ) ||
+    shExpMatch(host, "*fast*" ) ||
     shExpMatch(host, "*udemy*" ) ||
 
-    shExpMatch(host, "*externulls*.com" ) ||
-    shExpMatch(host, "*yandex*.ru" ) ||
-    shExpMatch(host, "*beeglivesex*.com" ) ||
+    shExpMatch(host, "*externulls*" ) ||
+    shExpMatch(host, "*yandex*" ) ||
     shExpMatch(host, "*javhd*" ) ||
     shExpMatch(host, "*whatismyip*" )
   ) {
