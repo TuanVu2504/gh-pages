@@ -8,6 +8,7 @@ function FindProxyForURL(url, host) {
     shExpMatch(host, "*rphang*" ) ||
     shExpMatch(host, "*medium*" ) ||
     shExpMatch(host, "*beeg*" ) ||
+    shExpMatch(host, "*supportlivecam*" ) ||
 
     shExpMatch(host, "*netflix*" ) ||
     shExpMatch(host, "*fast*" ) ||
