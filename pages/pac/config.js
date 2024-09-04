@@ -13,6 +13,7 @@ function FindProxyForURL(url, host) {
     shExpMatch(host, "*netflix*" ) ||
     shExpMatch(host, "*fast*" ) ||
     shExpMatch(host, "*udemy*" ) ||
+    shExpMatch(host, "*litix*" ) ||
 
     shExpMatch(host, "*externulls*" ) ||
     shExpMatch(host, "*yandex*" ) ||
