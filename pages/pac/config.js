@@ -20,6 +20,7 @@ function FindProxyForURL(url, host) {
     shExpMatch(host, "*externulls*" ) ||
     shExpMatch(host, "*yandex*" ) ||
     shExpMatch(host, "*javhd*" ) ||
+    shExpMatch(host, "*linksvip*" ) ||
     shExpMatch(host, "*whatismyip*" )
   ) {
     return "PROXY 127.0.0.1:65000";
