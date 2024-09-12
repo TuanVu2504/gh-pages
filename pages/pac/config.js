@@ -1,3 +1,5 @@
+# https://tuanvu2504.github.io/gh-pages/pages/pac/config.js
+
 function FindProxyForURL(url, host) {
   alert(`hello ${host} - ${url}`);
 
