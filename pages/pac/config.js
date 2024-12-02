@@ -4,6 +4,8 @@ function FindProxyForURL(url, host) {
   alert(`hello ${host} - ${url}`);
 
   if (
+    shExpMatch(host, "*mydomain.com*" ) || 
+    
     shExpMatch(host, "*vlxx*" ) || 
     shExpMatch(host, "*gaito*" ) ||
     shExpMatch(host, "*gaigu*" ) ||
